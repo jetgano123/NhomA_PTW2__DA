@@ -1,0 +1,39 @@
+2023-11-03T02:41:17+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\big-store\inc\woocommerce\woo-function.php:29
+Stack trace:
+#0 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\big-store\inc\woocommerce\woo-function.php(39): big_store_cart_total_item()
+#1 C:\laragon\www\NhomA_PTW2__DA\wp-includes\class-wp-hook.php(310): big_store_menu_cart_view('')
+#2 C:\laragon\www\NhomA_PTW2__DA\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\NhomA_PTW2__DA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\big-store\inc\header-function.php(542): do_action('open_cart_count')
+#5 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\big-store\inc\header-function.php(396): big_store_main_header_optn()
+#6 C:\laragon\www\NhomA_PTW2__DA\wp-includes\class-wp-hook.php(310): big_store_main_header_markup('')
+#7 C:\laragon\www\NhomA_PTW2__DA\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 C:\laragon\www\NhomA_PTW2__DA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\big-store\header.php(87): do_action('big_store_main_...')
+#10 C:\laragon\www\NhomA_PTW2__DA\wp-includes\template.php(785): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\NhomA_PTW2__DA\wp-includes\template.php(720): load_template('C:\\laragon\\www\\...', true, Array)
+#12 C:\laragon\www\NhomA_PTW2__DA\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\big-store\404.php(11): get_header()
+#14 C:\laragon\www\NhomA_PTW2__DA\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#15 C:\laragon\www\NhomA_PTW2__DA\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#16 C:\laragon\www\NhomA_PTW2__DA\index.php(17): require('C:\\laragon\\www\\...')
+#17 {main}
+  thrown in C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\big-store\inc\woocommerce\woo-function.php on line 29
+
+2023-11-03T03:43:08+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\laragon\www\NhomA_PTW2__DA\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\laragon\www\NhomA_PTW2__DA\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Themebeez Toolk...')
+#1 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\orchid-store\third-party\class-tgm-plugin-activation.php(3669): Bulk_Upgrader_Skin->after('Themebeez Toolk...')
+#2 C:\laragon\www\NhomA_PTW2__DA\wp-admin\includes\class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\orchid-store\third-party\class-tgm-plugin-activation.php(3289): WP_Upgrader->run(Array)
+#4 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\orchid-store\third-party\class-tgm-plugin-activation.php(3402): TGMPA_Bulk_Installer->run(Array)
+#5 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\orchid-store\third-party\class-tgm-plugin-activation.php(3008): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\laragon\www\NhomA_PTW2__DA\wp-content\themes\orchid-store\third-party\class-tgm-plugin-activation.php(754): TGMPA_List_Table->process_bulk_actions()
+#7 C:\laragon\www\NhomA_PTW2__DA\wp-includes\class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\laragon\www\NhomA_PTW2__DA\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\laragon\www\NhomA_PTW2__DA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\NhomA_PTW2__DA\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\laragon\www\NhomA_PTW2__DA\wp-admin\themes.php(10): require_once('C:\\laragon\\www\\...')
+#12 {main}
+  thrown in C:\laragon\www\NhomA_PTW2__DA\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+

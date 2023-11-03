@@ -1,0 +1,30 @@
+/**
+=======================================================
+
+= Project : Addonify compare products
+=
+= Since : 24 May 2022
+=
+= Author: Addonify
+=
+= Author url : https://addonify.com/
+=
+
+======================================================================================
+*/
+
+@use 'abstract/variables' as *;
+@use 'abstract/mixins' as *;
+
+@import 'base/form';
+@import 'base/alerts';
+
+@import 'helpers/class';
+
+@import 'layouts/entry';
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/error-404';
+@import 'layouts/recommended-products';
+
+@import 'helpers/keyframes';
